@@ -28,10 +28,9 @@ const PanelHeader = () => (
 const SolutionArea = ({ component }) => (
   <Row>
     <Col>
-
-  <Panel header={<PanelHeader />} bordered>
-    {component}
-  </Panel>
+      <Panel header={<PanelHeader />} bordered>
+        {component}
+      </Panel>
     </Col>
   </Row>
 );
