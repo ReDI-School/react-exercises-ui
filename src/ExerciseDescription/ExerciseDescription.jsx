@@ -55,6 +55,7 @@ function ExerciseDescription({
     </Row>
   );
 }
+
 ExerciseDescription.propTypes = {
   description: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
     .isRequired,
