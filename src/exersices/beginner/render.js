@@ -92,7 +92,7 @@ export const ex04 = {
         </li>
         <li>
           An element (for example a div) should have the class <em>title</em>{" "}
-          and contain the following text: <em>JavaScript: The Good Parts</em>
+          and contain the following text: <em>JavaScript : The Good Parts</em>
         </li>
         <li>
           A <em>author</em> element should contain the following text:{" "}

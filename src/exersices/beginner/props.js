@@ -28,8 +28,8 @@ export const ex01 = {
       </pre>
 
       <p>
-        Check the Welcome.spec.js file to see what text needs to
-        be put into each element.
+        Check the Welcome.spec.js file to see what text needs to be put into
+        each element.
       </p>
     </div>
   )

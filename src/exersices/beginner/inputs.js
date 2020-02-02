@@ -13,7 +13,12 @@ export const ex01 = {
       <div>
         A placeholder (that is, the text we display when the input is blank)
       </div>
-      <div>💡💡 Tip: Dont forget to add the type of your input!</div>
+      <div>
+        <span role="img" aria-label="bulb">
+          💡💡
+        </span>{" "}
+        Tip: Dont forget to add the type of your input!
+      </div>
     </div>
   )
 };
@@ -32,7 +37,12 @@ export const ex02 = {
       <div>
         A placeholder (that is, the text we display when the input is blank)
       </div>
-      <div>💡💡 Tip: Dont forget to add the type of your input!</div>
+      <div>
+        <span role="img" aria-label="bulb">
+          💡💡
+        </span>{" "}
+        Tip: Dont forget to add the type of your input!
+      </div>
     </p>
   )
 };
