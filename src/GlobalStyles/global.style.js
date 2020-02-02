@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.9rem;
     color: ${Colors.textPrimary}; 
     margin: 0;
@@ -16,6 +16,12 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100%;
     overflow-x: hidden;
     min-width: 320px;
+  }
+      
+  iframe {
+    width: 100%;
+    height: 50vh;
+    margin: 0;
   }
 `;
 
