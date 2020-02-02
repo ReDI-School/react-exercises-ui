@@ -1,6 +1,8 @@
 import React from "react";
 import { Panel, Tooltip, Whisper } from "rsuite";
 import PropTypes from "prop-types";
+import Row from "../Grid/Row";
+import Col from "../Grid/Col";
 
 const tooltipMessage = (
   <Tooltip>
@@ -24,9 +26,14 @@ const PanelHeader = () => (
 );
 
 const SolutionArea = ({ component }) => (
+  <Row>
+    <Col>
+
   <Panel header={<PanelHeader />} bordered>
     {component}
   </Panel>
+    </Col>
+  </Row>
 );
 
 SolutionArea.propTypes = {
